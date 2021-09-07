@@ -55,7 +55,7 @@
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quod quas non, voluptatibus dolor, repellendus quo eveniet quidem cupiditate quasi veritatis provident incidunt. Earum animi eum ad voluptates? Est, dolore.</p>
                         <button type="button" class="btn">Descargar CV</button>
                     </div>
-                    <div class="col-12 col-md-6 text-center">
+                    <div class="col-12 col-md-6 text-center mt-5 mt-md-0">
                         <img src="img/movil.png" alt="movil" class="img-fluid">
                     </div>
                 </div>
@@ -65,12 +65,12 @@
 
     <div class="py-5">
         <div class="container py-4">
+            <h3>About Me</h3>
             <div class="row">
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-3 text-center">
                     <img src="img/yo.jpg" alt="Alejandro Rodríguez Carrillo" class="img-fluid rounded">
                 </div>
-                <div class="col-12 col-md-9 text-about">
-                    <h3>About Me</h3>
+                <div class="col-12 col-md-9 text-about mt-4 mt-md-0">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit architecto earum omnis
                         eligendi nesciunt sapiente ipsa, atque temporibus eos ut sunt reiciendis quae rem? Ipsa
                         doloremque officia qui mollitia.</p>
@@ -158,7 +158,7 @@
     <div class="py-5">
         <div class="container py-4">
             <h3>My Studies</h3>
-            <div class="estudios">
+            <div class="estudios mt-5">
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <div class="estudio py-5">
@@ -167,7 +167,7 @@
                             <p>CFGS - IES Siete palmas</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-md-4 my-4 my-md-0">
                         <div class="estudio py-5">
                             <i class='bx bx-mobile mb-4' ></i>
                             <span>DAM</span>
