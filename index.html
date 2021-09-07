@@ -14,65 +14,55 @@
 
 <body>
     <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="#">Kroalca</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <i class='bx bx-menu'></i>
-        </button>
+        <div class="container">
+            <a class="navbar-brand" href="#">Kroalca</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class='bx bx-menu'></i>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Abaout</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Studies</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Abaout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
     <div class="main">
         <div class="portada py-4 px-3">
-            <div class="welcome">
-                <h1>Alejandro Rodríguez Carrillo</h1>
-                <h2>Web developper</h2>
-                <button type="button" class="btn">Descargar CV</button>
+            <div class="welcome container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h1>Alejandro Rodríguez Carrillo</h1>
+                        <h2>Web developper</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quod quas non, voluptatibus dolor, repellendus quo eveniet quidem cupiditate quasi veritatis provident incidunt. Earum animi eum ad voluptates? Est, dolore.</p>
+                        <button type="button" class="btn">Descargar CV</button>
+                    </div>
+                    <div class="col-12 col-md-6 text-center">
+                        <img src="img/movil.png" alt="movil" class="img-fluid">
+                    </div>
+                </div>
             </div>
-            <i class='bx bxl-html5'></i>
-            <i class='bx bxl-css3' ></i>
-            <i class='bx bxl-javascript' ></i>
-            <i class='bx bxl-php' ></i>
-            <i class='bx bxl-react' ></i>
-            <i class='bx bxl-nodejs' ></i>
         </div>
-        <div class="rectangulo r1"></div>
-        <div class="rectangulo r2"></div>
-        <div class="rectangulo r3"></div>
-        <div class="rectangulo r4"></div>
-        <div class="rectangulo r5"></div>
-        <div class="rectangulo r6"></div>
-        <div class="rectangulo r7"></div>
-        <div class="rectangulo r8"></div>
-        <div class="rectangulo r9"></div>
-        <div class="rectangulo r10"></div>
-        <div class="rectangulo r11"></div>
-        <div class="rectangulo r12"></div>
-        <div class="rectangulo r13"></div>
-        <div class="rectangulo r14"></div>
     </div>
 
-    <div class="verde py-5">
-        <div class="about container py-4">
+    <div class="py-5">
+        <div class="container py-4">
             <div class="row">
                 <div class="col-12 col-md-3">
                     <img src="img/yo.jpg" alt="Alejandro Rodríguez Carrillo" class="img-fluid rounded">
@@ -88,12 +78,26 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit architecto earum omnis
                         eligendi nesciunt sapiente ipsa, atque temporibus eos ut sunt reiciendis quae rem? Ipsa
                         doloremque.</p>
+                    <div class="about-enlace">
+                        <div class="enlace">
+                            <i class='bx bx-mail-send'></i>
+                            <a href="">kroalca@gmail.com</a>
+                        </div>
+                        <div class="enlace">
+                            <i class='bx bxl-github' ></i>
+                            <a href="https://github.com/Kroalca">Github</a>
+                        </div>
+                        <div class="enlace">
+                            <i class='bx bxl-linkedin' ></i>
+                            <a href="https://www.linkedin.com/in/alejandro-rodríguez-carrillo-34a583205/">Linkedin</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="py-5">
+    <div class="py-5 gris">
         <div class="skills container py-4">
             <h3>My Skills</h3>
             <div class="skills-bar">
