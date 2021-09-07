@@ -11,15 +11,21 @@
     --colorb: #000;
 }
 
+header {
+    background-color: #fff;
+    width: 100% !important;
+}
+
 .navbar {
     background-color: var(--colors);
     padding: 8px 16px;
     font-size: 1.25rem;
+    box-shadow: -21.213px 21.213px 30px 0px rgb(158 158 158 / 30%);
 }
 
 .navbar-toggler{
     color: var(--colorb);
-    border: 0.15rem solid var(--colorb);
+    background-color: var(--colorg);
 }
 
 .navbar ul li a, .navbar a{
@@ -29,7 +35,7 @@
 }
 
 .navbar ul li a:hover, .navbar a:hover{
-    color: var(--colort);
+    color: var(--colorp);
 }
 
 
@@ -239,6 +245,48 @@ h3{
 
 .progress-line.react span{
     width: 50%;
+}
+
+.estudios .estudio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorg);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.estudios .estudio i{
+    font-size: 3rem;
+    background-color: var(--colors);
+    color: var(--colorb);
+    border-radius: 50%;
+    padding: 6px;
+    transition: all 0.5s ease;
+}
+
+.estudios .estudio span{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.estudios .estudio p{
+    font-size: 1.20rem;
+    margin: 0;
+}
+
+.estudios .estudio:hover{
+    background-color: var(--colorp);
+    color: var(--colors);
+    box-shadow: 0px 20px 20px 0px rgb(157 157 157 / 50%);
+}
+
+.estudios .estudio:hover i{
+    background-color: rgba(122,225,209,1);
+    color: var(--colors);
 }
 
 @keyframes animate {
