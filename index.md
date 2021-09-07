@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <header>
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">Kroalca</a>
@@ -21,8 +22,8 @@
                 <i class='bx bx-menu'></i>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">Abaout</a>
                     </li>
@@ -42,6 +43,7 @@
             </div>
         </div>
     </nav>
+</header>
 
     <div class="main">
         <div class="portada py-4 px-3">
@@ -147,6 +149,37 @@
                     </div>
                     <div class="progress-line mysql">
                         <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container py-4">
+            <h3>My Studies</h3>
+            <div class="estudios">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <div class="estudio py-5">
+                            <i class='bx bx-server mb-4'></i>
+                            <span>ASIR</span>
+                            <p>CFGS - IES Siete palmas</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="estudio py-5">
+                            <i class='bx bx-mobile mb-4' ></i>
+                            <span>DAM</span>
+                            <p>CFGS - CIFP Villa de Aguimes</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="estudio py-5">
+                            <i class='bx bx-laptop mb-4'></i>
+                            <span>ASIR</span>
+                            <p>CP - Focan</p>
+                        </div>
                     </div>
                 </div>
             </div>
