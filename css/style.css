@@ -9,6 +9,7 @@
     --colorg: #eceff4;
     --colorc: #7ae1d1;
     --colorb: #000;
+    --degradado: linear-gradient(90deg, rgba(37,161,142,1) 30%, rgba(122,225,209,1) 100%);
 }
 
 header {
@@ -50,7 +51,12 @@ header {
     color: var(--colors);
     position: relative;
     background: rgb(37,161,142);
-    background: linear-gradient(90deg, rgba(37,161,142,1) 30%, rgba(122,225,209,1) 100%);
+    background: var(--degradado);
+}
+
+.welcome .row{
+    align-items: center;
+    justify-content: center;
 }
 
 .welcome h1{
@@ -76,6 +82,11 @@ header {
     border: 1px solid #fff;
     background: transparent;
     color: #fff;
+}
+
+.welcome .animacion{
+    width: 100%;
+    height: auto;
 }
 
 
@@ -285,8 +296,12 @@ h3{
 }
 
 .estudios .estudio:hover i{
-    background-color: rgba(122,225,209,1);
+    background-color: #7ae1d1;
     color: var(--colors);
+}
+
+.contacto textarea{
+    resize: none;
 }
 
 @keyframes animate {
