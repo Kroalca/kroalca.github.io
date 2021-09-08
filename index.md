@@ -9,6 +9,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <title>Alejandro Rodríguez Carrillo</title>
 </head>
 
@@ -45,7 +46,7 @@
     </nav>
 </header>
 
-    <div class="main">
+    <section class="main">
         <div class="portada py-4 px-3">
             <div class="welcome container">
                 <div class="row">
@@ -56,14 +57,15 @@
                         <button type="button" class="btn">Descargar CV</button>
                     </div>
                     <div class="col-12 col-md-6 text-center mt-5 mt-md-0">
-                        <img src="img/movil.png" alt="movil" class="img-fluid">
+                        <!-- <img src="img/movil.png" alt="movil" class="img-fluid"> -->
+                        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_uzamaojr.json" class="animacion"  background="transparent"  speed="0.5"  loop autoplay></lottie-player>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="py-5">
+    <section class="py-5">
         <div class="container py-4">
             <h3>About Me</h3>
             <div class="row">
@@ -97,9 +99,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="py-5 gris">
+    <section class="py-5 gris">
         <div class="skills container py-4">
             <h3>My Skills</h3>
             <div class="skills-bar">
@@ -153,9 +155,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="py-5">
+    <section class="py-5">
         <div class="container py-4">
             <h3>My Studies</h3>
             <div class="estudios mt-5">
@@ -184,7 +186,22 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="py-5 gris">
+        <div class="contacto container py-4">
+            <h3>Contact</h3>
+            <div class="row mt-4">
+                <div class="col-12 col-md-8">
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="Name">
+                    <input type="mail" class="form-control my-3" placeholder="Email" aria-label="Email" aria-describedby="Email">
+                    <input type="text" class="form-control mb-3" placeholder="Subject" aria-label="Subject" aria-describedby="Subject">
+                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                </div>
+                <div class="col-12 col-md-4"></div>
+            </div>
+        </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
