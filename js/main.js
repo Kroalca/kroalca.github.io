@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    new WOW().init();
+});
+
 const typed = new Typed('.typed', {
     // strings: ['Web Developer', 'Frontend', 'Backend', 'Fullstack'],
     stringsElement: '#cadena-texto',

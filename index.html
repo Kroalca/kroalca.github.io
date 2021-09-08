@@ -115,7 +115,7 @@
                     <div class="info">
                         <span>HTML</span>
                     </div>
-                    <div class="progress-line html">
+                    <div class="wow progress-line html">
                         <span></span>
                     </div>
                 </div>
@@ -123,7 +123,7 @@
                     <div class="info">
                         <span>CSS</span>
                     </div>
-                    <div class="progress-line css">
+                    <div class="wow progress-line css">
                         <span></span>
                     </div>
                 </div>
@@ -131,7 +131,7 @@
                     <div class="info">
                         <span>JS</span>
                     </div>
-                    <div class="progress-line js">
+                    <div class="wow progress-line js">
                         <span></span>
                     </div>
                 </div>
@@ -139,7 +139,7 @@
                     <div class="info">
                         <span>PHP</span>
                     </div>
-                    <div class="progress-line php">
+                    <div class="wow progress-line php">
                         <span></span>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                     <div class="info">
                         <span>React</span>
                     </div>
-                    <div class="progress-line react">
+                    <div class="wow progress-line react">
                         <span></span>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                     <div class="info">
                         <span>Mysql</span>
                     </div>
-                    <div class="progress-line mysql">
+                    <div class="wow progress-line mysql">
                         <span></span>
                     </div>
                 </div>
@@ -250,6 +250,7 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="js/main.js"></script>
+    <script src="js/wow.min.js"></script>
 </body>
 
 </html>
