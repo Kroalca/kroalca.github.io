@@ -26,16 +26,13 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Abaout</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Skills</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Studies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
