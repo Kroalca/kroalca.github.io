@@ -194,9 +194,9 @@
         </div>
     </section>
 
-    <section class="py-5 gris">
+    <section class="gris">
         <div class="contacto container py-4">
-            <div class="row mt-4">
+            <div class="row mt-4 mx-1 mx-md-0">
                 <div class="col-12 col-md-8 contacto-contenedor py-5">
                     <h4>Send me a message</h4>
                     <input type="text" class="form-control my-3" placeholder="Name" aria-label="Name" aria-describedby="Name">
