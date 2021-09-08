@@ -52,7 +52,13 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <h1>Alejandro Rodríguez Carrillo</h1>
-                        <h2>Web developper</h2>
+                        <h2><span class="typed"></span></h2>
+                        <div id="cadena-texto">
+                            <h2>Web Developer</h2>
+                            <h2>Frontend</h2>
+                            <h2>Backend</h2>
+                            <h2>Fullstack</h2>
+                        </div>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quod quas non, voluptatibus dolor, repellendus quo eveniet quidem cupiditate quasi veritatis provident incidunt. Earum animi eum ad voluptates? Est, dolore.</p>
                         <button type="button" class="btn">Descargar CV</button>
                     </div>
@@ -84,7 +90,7 @@
                         doloremque.</p>
                     <div class="about-enlace">
                         <div class="enlace">
-                            <i class='bx bx-mail-send'></i>
+                            <i class='bx bx-message'></i>
                             <a href="">kroalca@gmail.com</a>
                         </div>
                         <div class="enlace">
@@ -190,18 +196,46 @@
 
     <section class="py-5 gris">
         <div class="contacto container py-4">
-            <h3>Contact</h3>
             <div class="row mt-4">
-                <div class="col-12 col-md-8">
-                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="Name">
+                <div class="col-12 col-md-8 contacto-contenedor py-5">
+                    <h4>Send me a message</h4>
+                    <input type="text" class="form-control my-3" placeholder="Name" aria-label="Name" aria-describedby="Name">
                     <input type="mail" class="form-control my-3" placeholder="Email" aria-label="Email" aria-describedby="Email">
                     <input type="text" class="form-control mb-3" placeholder="Subject" aria-label="Subject" aria-describedby="Subject">
-                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                    <textarea class="form-control mb-3" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                    <button type="button" class="btn">Send</button>
                 </div>
-                <div class="col-12 col-md-4"></div>
+                <div class="col-12 col-md-4 d-flex flex-column justify-content-between tarjetas py-5 px-5">
+                    <h4>Contact info</h4>
+                    <div class="tarjeta mt-2 mt-md-0">
+                        <h5>Location</h5>
+                        <p>España</p>
+                        <p>Gran Canaria</p>
+                        <p>Vecindario</p>
+                    </div>
+                    <div class="tarjeta mt-2 mt-md-0">
+                        <h5>Email</h5>
+                        <p>kroalca@gmail.com</p>
+                    </div>
+                    <div class="tarjeta mt-2 mt-md-0">
+                        <i class='bx bx-message'></i>
+                        <i class='bx bxl-github mx-2' ></i>
+                        <i class='bx bxl-linkedin' ></i>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+
+    <footer class="py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+        <h5>© 2021 Copyright: <span>Kroalca</span></h5>
+        <div class="footer-iconos">
+            <a href=""><i class='bx bxl-github mb-2' ></i></a>
+            <a href=""><i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -214,6 +248,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
