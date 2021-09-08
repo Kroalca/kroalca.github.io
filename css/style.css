@@ -39,12 +39,9 @@ header {
     color: var(--colorp);
 }
 
-
-
-
 .main {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +49,7 @@ header {
     position: relative;
     background: rgb(37,161,142);
     background: var(--degradado);
+    margin-top: 56px;
 }
 
 .welcome .row{
