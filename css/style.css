@@ -8,7 +8,7 @@
     --colors: #fff;
     --colorg: #eceff4;
     --colorc: #7ae1d1;
-    --colorb: #000;
+    --colorb: #0a0908;
     --degradado: linear-gradient(90deg, rgba(37,161,142,1) 30%, rgba(122,225,209,1) 100%);
 }
 
@@ -294,12 +294,96 @@ h3{
 }
 
 .estudios .estudio:hover i{
-    background-color: #7ae1d1;
+    background-color: var(--colorc);
     color: var(--colors);
 }
 
 .contacto textarea{
     resize: none;
+}
+
+.contacto .btn{
+    background-color: var(--colorp);
+    padding: 8px 35px;
+    font-weight: 600;
+    color: var(--colors);
+    box-shadow: 0px 20px 20px 0px rgb(0 0 0 / 10%);
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.contacto .btn:hover{
+    border: 1px solid var(--colorb);
+    background: transparent;
+    color: var(--colorb);
+}
+
+.contacto .tarjeta .icono{
+    background-color: var(--colors);
+    color: var(--colorp);
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+
+.contacto .tarjeta span{
+    font-size: 1.15rem;
+}
+
+.contacto .tarjetas{
+    background-color: var(--colorp);
+    box-shadow: 0px 20px 20px 0px rgb(157 157 157 / 50%);
+    border-radius: 10px;
+}
+
+.contacto .tarjetas i{
+    font-size: 1.75rem;
+    color: var(--colors);
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.contacto .tarjetas i:hover{
+    color: #efefff;
+}
+
+.contacto .tarjetas p{
+    color: #efefff;
+    margin: 0;
+}
+
+.contacto .tarjetas h4, .contacto .tarjetas h5{
+    color: var(--colors);
+}
+
+.contacto .tarjetas h4 {
+    border-bottom: 1px solid var(--colors);
+    padding-bottom: 5px;
+}
+
+footer{
+    background-color: var(--colorb);
+    color: var(--colors);
+}
+
+footer i{
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+footer a{
+    color: var(--colors);
+    text-decoration: none;
+}
+
+footer i:hover{
+    color: var(--colorg);
+}
+
+footer h5 span{
+    font-weight: bold;
 }
 
 @keyframes animate {
