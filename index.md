@@ -175,21 +175,21 @@
             <h3>Mis Estudios</h3>
             <div class="estudios mt-5">
                 <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="estudio py-5">
                             <i class='bx bx-server mb-4'></i>
                             <span>ASIR</span>
                             <p>CFGS - IES Siete palmas</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4 my-4 my-md-0">
+                    <div class="col-12 col-lg-4 my-4 my-lg-0">
                         <div class="estudio py-5">
                             <i class='bx bx-mobile mb-4'></i>
                             <span>DAM</span>
                             <p>CFGS - CIFP Villa de Aguimes</p>
                         </div>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-12 col-lg-4">
                         <div class="estudio py-5">
                             <i class='bx bx-laptop mb-4'></i>
                             <span>DAW</span>
