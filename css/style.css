@@ -87,15 +87,11 @@ header {
     height: auto;
 }
 
-
 .gris{
     background-color: var(--colorg);
 }
 
 .about {
-    background-color: var(--colors);
-    border-radius: 5px;
-    box-shadow: 5px 5px 23px -9px;
     text-align: justify;
     font-size: 1.15rem;
 }

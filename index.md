@@ -63,13 +63,13 @@
                             <h2>Backend</h2>
                             <h2>Fullstack</h2>
                         </div>
-                        <p>Mi nombre es Alejandro tengo <span id="age" data-nosnippet></span> años, soy programador
-                            junior con ganas de tener experiencia laboral y aumentar mis conocimientos en el mundo de la
-                            programación web.</p>
-                        <button type="button" class="btn">Descargar CV</button>
+                        <p>Tengo <span id="age" data-nosnippet></span> años y me dedico a la programación web desde hace
+                            <span id="exp"></span> años,
+                            estoy listo para tener más experiencia laboral y aumentar mis conocimientos en el ámbito
+                            profesional.</p>
+                        <a href="file/cv2021.pdf" class="btn" target="_blank">Descargar CV</a>
                     </div>
                     <div class="col-12 col-md-6 text-center mt-5 mt-md-0">
-                        <!-- <img src="img/movil.png" alt="movil" class="img-fluid"> -->
                         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_uzamaojr.json"
                             class="animacion" background="transparent" speed="0.5" loop autoplay></lottie-player>
                     </div>
@@ -85,19 +85,20 @@
                 <div class="col-12 col-md-3 text-center">
                     <img src="img/yo.jpg" alt="Alejandro Rodríguez Carrillo" class="img-fluid rounded">
                 </div>
-                <div class="col-12 col-md-9 text-about mt-4 mt-md-0">
+                <div class="col-12 col-md-9 text-about mt-4 mt-md-0 about">
                     <p>Me defino como una persona responsable, trabajadora, amable y honesta que busca desarrollarse
                         profesional y personalmente. Creo que tengo mucho potencial y sobre todo muchas ganas de
                         trabajar y aprender.</p>
-                    <p>Estos últimos años me he estado formándome profesionalmente con tecnologías web, tengo un poco de
-                        conocimientos en algunos framework como React.</p>
-                    <p>También en trabajado con bases de datos(MySQL, Oracle, MongoDB) y conocimientos básicos de SEO
-                        para posicionar mi paguina web en Google.</p>
+                    <p>Estos últimos años me he estado formándome profesionalmente en tecnologías webs, poseo algunos
+                        conocimientos en framework como React.</p>
+                    <p>También en trabajado con bases de datos(MySQL, Oracle, MongoDB) y adquiero los conocimientos
+                        básicos de SEO
+                        para posicionar paguinas webs.</p>
                     <p>Me gustaría dedicarme profesionalmente al desarrollo web.</p>
                     <div class="about-enlace">
                         <div class="enlace">
                             <i class='bx bx-message'></i>
-                            <a href="">kroalca@gmail.com</a>
+                            <a href="mailto:kroalca@gmail.com">kroalca@gmail.com</a>
                         </div>
                         <div class="enlace">
                             <i class='bx bxl-github'></i>
@@ -230,7 +231,7 @@
                         <p>kroalca@gmail.com</p>
                     </div>
                     <div class="tarjeta mt-2 mt-md-0">
-                        <i class='bx bx-message'></i>
+                        <a href="mailto:kroalca@gmail.com"><i class='bx bx-message'></i></a>
                         <i class='bx bxl-github mx-2'></i>
                         <i class='bx bxl-linkedin'></i>
                     </div>

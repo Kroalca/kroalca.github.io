@@ -1,9 +1,13 @@
 $(document).ready(function(){
     new WOW().init();
     let birth = new Date('1997-07-12');
+    let ini = new Date('2017-09-12');
     let age = new Date(new Date() - birth).getFullYear()-1970;
+    let exp = new Date(new Date() - ini).getFullYear()-1970;
     let span_age = document.getElementById("age");
+    let span_exp = document.getElementById("exp");
     span_age.innerHTML=age;
+    span_exp.innerHTML=exp;
 });
 
 const typed = new Typed('.typed', {
