@@ -116,7 +116,7 @@
                         <span>HTML</span>
                     </div>
                     <div class="wow progress-line html">
-                        <span></span>
+                        <span data-nosnippet></span>
                     </div>
                 </div>
                 <div class="bar">
@@ -124,7 +124,7 @@
                         <span>CSS</span>
                     </div>
                     <div class="wow progress-line css">
-                        <span></span>
+                        <span data-nosnippet></span>
                     </div>
                 </div>
                 <div class="bar">
@@ -132,7 +132,7 @@
                         <span>JS</span>
                     </div>
                     <div class="wow progress-line js">
-                        <span></span>
+                        <span data-nosnippet></span>
                     </div>
                 </div>
                 <div class="bar">
@@ -140,7 +140,7 @@
                         <span>PHP</span>
                     </div>
                     <div class="wow progress-line php">
-                        <span></span>
+                        <span data-nosnippet></span>
                     </div>
                 </div>
                 <div class="bar">
@@ -148,7 +148,7 @@
                         <span>React</span>
                     </div>
                     <div class="wow progress-line react">
-                        <span></span>
+                        <span data-nosnippet></span>
                     </div>
                 </div>
                 <div class="bar">
@@ -156,7 +156,7 @@
                         <span>Mysql</span>
                     </div>
                     <div class="wow progress-line mysql">
-                        <span></span>
+                        <span data-nosnippet></span>
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                     <div class="col-12 col-md-4">
                         <div class="estudio py-5">
                             <i class='bx bx-laptop mb-4'></i>
-                            <span>ASIR</span>
+                            <span>DAW</span>
                             <p>CP - Focan</p>
                         </div>
                     </div>
@@ -242,6 +242,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
     </script>
