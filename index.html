@@ -67,7 +67,7 @@
                             <span id="exp"></span> años,
                             estoy listo para tener más experiencia laboral y aumentar mis conocimientos en el ámbito
                             profesional.</p>
-                        <a href="file/cv2021.pdf" class="btn" target="_blank">Descargar CV</a>
+                        <a href="file/cv2021.pdf" class="btn" download="CVAlejandro">Descargar CV</a>
                     </div>
                     <div class="col-12 col-md-6 text-center mt-5 mt-md-0">
                         <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_uzamaojr.json"
