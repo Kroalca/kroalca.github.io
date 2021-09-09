@@ -359,6 +359,11 @@ h3{
     padding-bottom: 5px;
 }
 
+.form-control:focus {
+    border-color: var(--colorc) !important;
+    box-shadow: 0 0 0 0.2rem rgb(37 161 142 / 25%) !important;
+}
+
 footer{
     background-color: var(--colorb);
     color: var(--colors);
