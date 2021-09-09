@@ -3,8 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0">
-    <meta name="Description" CONTENT="Author: Kroalca - Alejandro Rodríguez Carrillo, Category: Web developer Frontend Backend Fullstack, Desarrollador de aplicaciones webs">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0">
+    <meta name="Description"
+        CONTENT="Author: Kroalca - Alejandro Rodríguez Carrillo, Category: Web developer Frontend Backend Fullstack, Desarrollador de aplicaciones webs">
     <meta name="google-site-verification" content="8prxiTcIs9XHnj4Kb3hIB_ivxr-WXwNt0uDYCD-UvO4" />
     <link rel="canonical" href="https://kroalca.github.io" />
 
@@ -16,35 +18,37 @@
     <title>Alejandro Rodríguez Carrillo - Web Developer</title>
 </head>
 
-<body>
+<body id="home">
     <header>
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">Kroalca</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class='bx bx-menu'></i>
-            </button>
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#home">Kroalca</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class='bx bx-menu'></i>
+                </button>
 
-            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skill">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#studies">Studies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse justify-content-end align-items-center"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skill">Habilidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#studies">Estudios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-</header>
+        </nav>
+    </header>
 
     <section class="main">
         <div class="portada py-4 px-3">
@@ -59,12 +63,15 @@
                             <h2>Backend</h2>
                             <h2>Fullstack</h2>
                         </div>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste quod quas non, voluptatibus dolor, repellendus quo eveniet quidem cupiditate quasi veritatis provident incidunt. Earum animi eum ad voluptates? Est, dolore.</p>
+                        <p>Mi nombre es Alejandro tengo <span id="age" data-nosnippet></span> años, soy programador
+                            junior con ganas de tener experiencia laboral y aumentar mis conocimientos en el mundo de la
+                            programación web.</p>
                         <button type="button" class="btn">Descargar CV</button>
                     </div>
                     <div class="col-12 col-md-6 text-center mt-5 mt-md-0">
                         <!-- <img src="img/movil.png" alt="movil" class="img-fluid"> -->
-                        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_uzamaojr.json" class="animacion"  background="transparent"  speed="0.5"  loop autoplay></lottie-player>
+                        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_uzamaojr.json"
+                            class="animacion" background="transparent" speed="0.5" loop autoplay></lottie-player>
                     </div>
                 </div>
             </div>
@@ -73,32 +80,31 @@
 
     <section class="py-5" id="about">
         <div class="container py-4">
-            <h3>About Me</h3>
+            <h3>Sobre mi</h3>
             <div class="row">
                 <div class="col-12 col-md-3 text-center">
                     <img src="img/yo.jpg" alt="Alejandro Rodríguez Carrillo" class="img-fluid rounded">
                 </div>
                 <div class="col-12 col-md-9 text-about mt-4 mt-md-0">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit architecto earum omnis
-                        eligendi nesciunt sapiente ipsa, atque temporibus eos ut sunt reiciendis quae rem? Ipsa
-                        doloremque officia qui mollitia.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit architecto earum omnis
-                        eligendi nesciunt sapiente ipsa, atque temporibus eos ut sunt reiciendis quae rem? Ipsa
-                        doloremque officia qui mollitia.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam suscipit architecto earum omnis
-                        eligendi nesciunt sapiente ipsa, atque temporibus eos ut sunt reiciendis quae rem? Ipsa
-                        doloremque.</p>
+                    <p>Me defino como una persona responsable, trabajadora, amable y honesta que busca desarrollarse
+                        profesional y personalmente. Creo que tengo mucho potencial y sobre todo muchas ganas de
+                        trabajar y aprender.</p>
+                    <p>Estos últimos años me he estado formándome profesionalmente con tecnologías web, tengo un poco de
+                        conocimientos en algunos framework como React.</p>
+                    <p>También en trabajado con bases de datos(MySQL, Oracle, MongoDB) y conocimientos básicos de SEO
+                        para posicionar mi paguina web en Google.</p>
+                    <p>Me gustaría dedicarme profesionalmente al desarrollo web.</p>
                     <div class="about-enlace">
                         <div class="enlace">
                             <i class='bx bx-message'></i>
                             <a href="">kroalca@gmail.com</a>
                         </div>
                         <div class="enlace">
-                            <i class='bx bxl-github' ></i>
+                            <i class='bx bxl-github'></i>
                             <a href="https://github.com/Kroalca">Github</a>
                         </div>
                         <div class="enlace">
-                            <i class='bx bxl-linkedin' ></i>
+                            <i class='bx bxl-linkedin'></i>
                             <a href="https://www.linkedin.com/in/alejandro-rodríguez-carrillo-34a583205/">Linkedin</a>
                         </div>
                     </div>
@@ -109,7 +115,7 @@
 
     <section class="py-5 gris" id="skill">
         <div class="skills container py-4">
-            <h3>My Skills</h3>
+            <h3>Mis Habilidades</h3>
             <div class="skills-bar">
                 <div class="bar">
                     <div class="info">
@@ -165,7 +171,7 @@
 
     <section class="py-5" id="studies">
         <div class="container py-4">
-            <h3>My Studies</h3>
+            <h3>Mis Estudios</h3>
             <div class="estudios mt-5">
                 <div class="row">
                     <div class="col-12 col-md-4">
@@ -177,7 +183,7 @@
                     </div>
                     <div class="col-12 col-md-4 my-4 my-md-0">
                         <div class="estudio py-5">
-                            <i class='bx bx-mobile mb-4' ></i>
+                            <i class='bx bx-mobile mb-4'></i>
                             <span>DAM</span>
                             <p>CFGS - CIFP Villa de Aguimes</p>
                         </div>
@@ -198,17 +204,23 @@
         <div class="contacto container py-4">
             <div class="row mt-4 mx-1 mx-md-0">
                 <div class="col-12 col-md-8 contacto-contenedor py-5">
-                    <h4>Send me a message</h4>
-                    <input type="text" class="form-control my-3" placeholder="Name" aria-label="Name" aria-describedby="Name">
-                    <input type="mail" class="form-control my-3" placeholder="Email" aria-label="Email" aria-describedby="Email">
-                    <input type="text" class="form-control mb-3" placeholder="Subject" aria-label="Subject" aria-describedby="Subject">
-                    <textarea class="form-control mb-3" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                    <button type="button" class="btn">Send</button>
+                    <h4>Enviame un mensaje</h4>
+                    <form action="">
+                        <input type="text" class="form-control my-3" placeholder="Nombre" aria-label="Name"
+                            aria-describedby="Name">
+                        <input type="mail" class="form-control my-3" placeholder="Email" aria-label="Email"
+                            aria-describedby="Email">
+                        <input type="text" class="form-control mb-3" placeholder="Asunto" aria-label="Subject"
+                            aria-describedby="Subject">
+                        <textarea class="form-control mb-3" placeholder="Mensaje" id="message"
+                            style="height: 100px"></textarea>
+                        <button type="button" class="btn">Enviar</button>
+                    </form>
                 </div>
                 <div class="col-12 col-md-4 d-flex flex-column justify-content-between tarjetas py-5 px-5">
-                    <h4>Contact info</h4>
+                    <h4>Información de contacto</h4>
                     <div class="tarjeta mt-2 mt-md-0">
-                        <h5>Location</h5>
+                        <h5>Localización</h5>
                         <p>España</p>
                         <p>Gran Canaria</p>
                         <p>Vecindario</p>
@@ -219,8 +231,8 @@
                     </div>
                     <div class="tarjeta mt-2 mt-md-0">
                         <i class='bx bx-message'></i>
-                        <i class='bx bxl-github mx-2' ></i>
-                        <i class='bx bxl-linkedin' ></i>
+                        <i class='bx bxl-github mx-2'></i>
+                        <i class='bx bxl-linkedin'></i>
                     </div>
                 </div>
             </div>
@@ -229,12 +241,12 @@
 
     <footer class="py-3">
         <div class="container d-flex justify-content-between align-items-center">
-        <h5>© 2021 Copyright: <span>Kroalca</span></h5>
-        <div class="footer-iconos">
-            <a href=""><i class='bx bxl-github mb-2' ></i></a>
-            <a href=""><i class='bx bxl-linkedin' ></i></a>
+            <h5>© 2021 Copyright: <span>Kroalca</span></h5>
+            <div class="footer-iconos">
+                <a href=""><i class='bx bxl-github mb-2'></i></a>
+                <a href=""><i class='bx bxl-linkedin'></i></a>
+            </div>
         </div>
-    </div>
     </footer>
 
     <!-- Optional JavaScript -->
