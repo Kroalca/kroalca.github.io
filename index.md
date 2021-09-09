@@ -3,14 +3,17 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=0">
+    <meta name="Description" CONTENT="Author: Kroalca - Alejandro Rodríguez Carrillo, Category: Web developer Frontend Backend Fullstack, Desarrollador de aplicaciones webs">
+    <meta name="google-site-verification" content="8prxiTcIs9XHnj4Kb3hIB_ivxr-WXwNt0uDYCD-UvO4" />
+    <link rel="canonical" href="https://kroalca.github.io" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <title>Alejandro Rodríguez Carrillo</title>
+    <title>Alejandro Rodríguez Carrillo - Web Developer</title>
 </head>
 
 <body>
@@ -26,16 +29,16 @@
             <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
+                        <a class="nav-link" href="#skill">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Studies</a>
+                        <a class="nav-link" href="#studies">Studies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -68,7 +71,7 @@
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="py-5" id="about">
         <div class="container py-4">
             <h3>About Me</h3>
             <div class="row">
@@ -104,7 +107,7 @@
         </div>
     </section>
 
-    <section class="py-5 gris">
+    <section class="py-5 gris" id="skill">
         <div class="skills container py-4">
             <h3>My Skills</h3>
             <div class="skills-bar">
@@ -160,7 +163,7 @@
         </div>
     </section>
 
-    <section class="py-5">
+    <section class="py-5" id="studies">
         <div class="container py-4">
             <h3>My Studies</h3>
             <div class="estudios mt-5">
@@ -191,7 +194,7 @@
         </div>
     </section>
 
-    <section class="gris">
+    <section class="gris" id="contact">
         <div class="contacto container py-4">
             <div class="row mt-4 mx-1 mx-md-0">
                 <div class="col-12 col-md-8 contacto-contenedor py-5">
