@@ -33,10 +33,10 @@
                     id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#about">Sobre mi</a>
+                            <a class="nav-link" href="#about">Perfil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#skill">Habilidades</a>
+                            <a class="nav-link" href="#skill">Competencias</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#studies">Estudios</a>
@@ -80,7 +80,7 @@
 
     <section class="py-5" id="about">
         <div class="container py-4">
-            <h3>Sobre mi</h3>
+            <h3>Perfil</h3>
             <div class="row">
                 <div class="col-12 col-md-3 text-center">
                     <img src="img/yo.jpg" alt="Alejandro Rodríguez Carrillo" class="img-fluid rounded">
@@ -116,7 +116,7 @@
 
     <section class="py-5 gris" id="skill">
         <div class="skills container py-4">
-            <h3>Mis Habilidades</h3>
+            <h3>Mis Competencias</h3>
             <div class="skills-bar">
                 <div class="bar">
                     <div class="info">
