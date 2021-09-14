@@ -96,33 +96,13 @@ header {
     font-size: 1.15rem;
 }
 
-.text-about .about-enlace{
-    display: flex;
-    flex-direction: column;
+.text-about .about-enlace span{
+    font-weight: bold;
 }
 
-.text-about .about-enlace .enlace:first-child{
-    margin-top: 0;
-}
-
-.text-about .about-enlace .enlace{
-    margin-top: 5px;
-}
-
-.text-about .about-enlace .enlace i{
-   font-size: 1.25rem;
-   color: var(--colorp);
-}
-
-.text-about .about-enlace .enlace a{
-    font-size: 1.25rem;
-    color: var(--colorb);
-    text-decoration: none;
- }
-
-.text-about .about-enlace .enlace a:hover{
+.text-about .about-enlace a{
     color: var(--colorp);
- }
+}
 
 h3{
     text-align: center;

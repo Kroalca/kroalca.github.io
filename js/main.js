@@ -5,8 +5,10 @@ $(document).ready(function(){
     let age = new Date(new Date() - birth).getFullYear()-1970;
     let exp = new Date(new Date() - ini).getFullYear()-1970;
     let span_age = document.getElementById("age");
+    let span_age2 = document.getElementById("age2");
     let span_exp = document.getElementById("exp");
     span_age.innerHTML=age;
+    span_age2.innerHTML=age;
     span_exp.innerHTML=exp;
 });
 

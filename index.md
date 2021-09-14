@@ -96,17 +96,23 @@
                         para posicionar paguinas webs.</p>
                     <p>Me gustaría dedicarme profesionalmente al desarrollo web.</p>
                     <div class="about-enlace">
-                        <div class="enlace">
-                            <i class='bx bx-message'></i>
-                            <a href="mailto:kroalca@gmail.com">kroalca@gmail.com</a>
-                        </div>
-                        <div class="enlace">
-                            <i class='bx bxl-github'></i>
-                            <a href="https://github.com/Kroalca">Github</a>
-                        </div>
-                        <div class="enlace">
-                            <i class='bx bxl-linkedin'></i>
-                            <a href="https://www.linkedin.com/in/alejandro-rodríguez-carrillo-34a583205/">Linkedin</a>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <span>Edad: </span>
+                                <i id="age2"></i>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <span>Email: </span>
+                                <a href="mailto:kroalca@gmail.com">kroalca@gmail.com</a>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <span>Linkedin: </span>
+                                <a href="https://www.linkedin.com/in/alejandro-rodríguez-carrillo-34a583205">Alejandro<i class='bx bx-link'></i></a>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <span>Github: </span>
+                                <a href="https://github.com/Kroalca">Kroalca<i class='bx bx-link'></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -232,8 +238,9 @@
                     </div>
                     <div class="tarjeta mt-2 mt-md-0">
                         <a href="mailto:kroalca@gmail.com"><i class='bx bx-message'></i></a>
-                        <i class='bx bxl-github mx-2'></i>
-                        <i class='bx bxl-linkedin'></i>
+                        <a href="https://github.com/Kroalca"><i class='bx bxl-github mx-2'></i></a>
+                        <a href="https://www.linkedin.com/in/alejandro-rodríguez-carrillo-34a583205"><i
+                                class='bx bxl-linkedin'></i></a>
                     </div>
                 </div>
             </div>
