@@ -9,11 +9,13 @@
         CONTENT="Author: Kroalca - Alejandro Rodríguez Carrillo, Category: Web developer Frontend Backend Fullstack, Desarrollador de aplicaciones webs">
     <meta name="google-site-verification" content="8prxiTcIs9XHnj4Kb3hIB_ivxr-WXwNt0uDYCD-UvO4" />
     <link rel="canonical" href="https://kroalca.github.io" />
+    <link rel="icon" type="image/svg+xml" href="img/logo.svg" sizes="any">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <title>Alejandro Rodríguez Carrillo - Web Developer</title>
 </head>
@@ -22,7 +24,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#home">Kroalca</a>
+                <a class="navbar-brand" href="#home"><img src="img/logo.svg" alt="kroalca" width="12">roalca</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -82,10 +84,10 @@
         <div class="container py-4">
             <h3>Perfil</h3>
             <div class="row">
-                <div class="col-12 col-md-3 text-center">
-                    <img src="img/yo.jpg" alt="Alejandro Rodríguez Carrillo" class="img-fluid rounded">
+                <div class="col-12 col-md-4 text-center">
+                    <img src="img/logo.svg" alt="kroalca" class="wow animate__animated animate__zoomIn img-fluid">
                 </div>
-                <div class="col-12 col-md-9 text-about mt-4 mt-md-0 about">
+                <div class="col-12 col-md-8 text-about mt-4 mt-md-0 about">
                     <p>Me defino como una persona responsable, trabajadora, amable y honesta que busca desarrollarse
                         profesional y personalmente. Creo que tengo mucho potencial y sobre todo muchas ganas de
                         trabajar y aprender.</p>
