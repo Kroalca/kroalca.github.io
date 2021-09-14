@@ -14,7 +14,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="lib/lottie-player.js"></script>
     <title>Alejandro Rodríguez Carrillo - Web Developer</title>
 </head>
 
@@ -262,7 +262,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="lib/typed.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
 </body>
