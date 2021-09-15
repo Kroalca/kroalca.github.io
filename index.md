@@ -24,7 +24,7 @@
     <header>
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container">
-                <a class="navbar-brand" href="#home"><img src="img/logo.svg" alt="kroalca" width="12">roalca</a>
+                <a class="navbar-brand" href="#home"><img src="img/logo.svg" alt="kroalca" width="10">roalca</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -214,16 +214,16 @@
             <div class="row mt-4 mx-1 mx-md-0">
                 <div class="col-12 col-md-8 contacto-contenedor py-5">
                     <h4>Enviame un mensaje</h4>
-                    <form action="">
+                    <form id="form">
                         <input type="text" class="form-control my-3" placeholder="Nombre" aria-label="Name"
-                            aria-describedby="Name">
-                        <input type="mail" class="form-control my-3" placeholder="Email" aria-label="Email"
-                            aria-describedby="Email">
+                            aria-describedby="Name" id="contact_name" required>
+                        <input type="email" class="form-control my-3" placeholder="Email" aria-label="Email"
+                            aria-describedby="Email" id="contact_email" required>
                         <input type="text" class="form-control mb-3" placeholder="Asunto" aria-label="Subject"
-                            aria-describedby="Subject">
-                        <textarea class="form-control mb-3" placeholder="Mensaje" id="message"
-                            style="height: 100px"></textarea>
-                        <button type="button" class="btn">Enviar</button>
+                            aria-describedby="Subject" id="contact_subject" required>
+                        <textarea class="form-control mb-3" placeholder="Mensaje" id="contact_message"
+                            style="height: 150px" required></textarea>
+                        <input type="submit" class="btn" value="Enviar">
                     </form>
                 </div>
                 <div class="col-12 col-md-4 d-flex flex-column justify-content-between tarjetas py-5 px-5">
@@ -271,7 +271,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/mail.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
 </body>
