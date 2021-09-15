@@ -11,7 +11,6 @@ form.addEventListener("submit", (e) => {
 	datos.append("email", email);
 	datos.append("subject", subject);
 	datos.append("mensaje", mensaje);
-	console.log(datos);
 
 			fetch('asset/mail.php', {
 				method: 'POST',
@@ -40,7 +39,7 @@ form.addEventListener("submit", (e) => {
 			.catch(error => Swal.fire({
 				icon: 'error',
 				title: 'Algo ha salido mal',
-				text: 'Intentelo mas tarde o envie un correo a mi mail',
+				text: 'Intentelo mas tarde o envie un correo a mi email',
 				footer: '<a href="mailto:kroalca@gmail.com">kroalca@gmail.com</a>'
 			  }));
 
