@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
 	datos.append("subject", subject);
 	datos.append("mensaje", mensaje);
 
-			fetch('asset/mail.php', {
+			fetch('assets/mail.php', {
 				method: 'POST',
 				body: datos
 			})
