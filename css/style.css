@@ -5,11 +5,16 @@
     padding: 0;
     font-family: 'Nunito Sans', sans-serif;
     --colorp: #25a18e;
+    --colorc: #7ae1d1;
     --colors: #fff;
     --colorg: #eceff4;
-    --colorc: #7ae1d1;
     --colorb: #0a0908;
     --degradado: linear-gradient(90deg, rgba(37,161,142,1) 30%, rgba(122,225,209,1) 100%);
+    --botona: background-color 0.5s ease, border 0.2s ease, transform 0.1s ease;
+}
+
+.btn:active{
+    transform: scale(0.8);
 }
 
 header {
@@ -47,7 +52,6 @@ header {
     justify-content: center;
     color: var(--colors);
     position: relative;
-    background: rgb(37,161,142);
     background: var(--degradado);
     margin-top: 56px;
 }
@@ -66,20 +70,20 @@ header {
 }
 
 .welcome .btn{
-    background-color: #fff;
+    background-color: var(--colors);
     padding: 8px 35px;
     font-weight: 600;
-    color: #222;
+    color: var(--colorb);
     box-shadow: 0px 20px 20px 0px rgb(0 0 0 / 10%);
     border: 1px solid transparent;
     border-radius: 20px;
-    transition: all 0.5s ease;
+    transition: var(--botona);
 }
 
 .welcome .btn:hover{
-    border: 1px solid #fff;
+    border: 1px solid var(--colors);
     background: transparent;
-    color: #fff;
+    color: var(--colors);
 }
 
 .welcome .animacion{
@@ -286,12 +290,12 @@ h3{
     box-shadow: 0px 20px 20px 0px rgb(0 0 0 / 10%);
     border: 1px solid transparent;
     border-radius: 20px;
-    transition: all 0.5s ease;
+    transition: var(--botona);
 }
 
 .contacto .btn:hover{
     border: 1px solid var(--colorb);
-    background: transparent;
+    background-color: transparent;
     color: var(--colorb);
 }
 
