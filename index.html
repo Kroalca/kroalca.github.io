@@ -15,44 +15,40 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     <title>Alejandro Rodríguez Carrillo - Web Developer</title>
 </head>
 
 <body id="home">
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#home"><img src="img/logo.svg" alt="kroalca" width="10">roalca</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <i class='bx bx-menu'></i>
-                </button>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home"><img src="img/logo.svg" alt="kroalca" width="10">roalca</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class='bx bx-menu'></i>
+            </button>
 
-                <div class="collapse navbar-collapse justify-content-end align-items-center"
-                    id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">Perfil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skill">Competencias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#studies">Estudios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Competencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#studies">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contacto</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <section class="main">
+    <header class="main">
         <div class="portada py-4 px-3">
             <div class="welcome container">
                 <div class="row">
@@ -78,7 +74,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
     <section class="py-5" id="about">
         <div class="container py-4">
@@ -109,7 +105,8 @@
                             </div>
                             <div class="col-12 col-md-6">
                                 <span>Linkedin: </span>
-                                <a href="https://www.linkedin.com/in/alejandro-rodríguez-carrillo-34a583205">Alejandro<i class='bx bx-link'></i></a>
+                                <a href="https://www.linkedin.com/in/alejandro-rodríguez-carrillo-34a583205">Alejandro<i
+                                        class='bx bx-link'></i></a>
                             </div>
                             <div class="col-12 col-md-6">
                                 <span>Github: </span>
