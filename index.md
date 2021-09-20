@@ -61,7 +61,7 @@
                             <h2>Backend</h2>
                             <h2>Fullstack</h2>
                         </div>
-                        <p>Tengo <span id="age" data-nosnippet></span> años y me dedico a la programación web desde hace
+                        <p>Tengo <span id="age" data-nosnippet></span> años y me dedico a la <strong>programación web</strong> desde hace
                             <span id="exp"></span> años,
                             estoy listo para tener más experiencia laboral y aumentar mis conocimientos en el ámbito
                             profesional.</p>
@@ -87,10 +87,10 @@
                     <p>Me defino como una persona responsable, trabajadora, amable y honesta que busca desarrollarse
                         profesional y personalmente. Creo que tengo mucho potencial y sobre todo muchas ganas de
                         trabajar y aprender.</p>
-                    <p>Estos últimos años me he estado formándome profesionalmente en tecnologías webs, poseo algunos
-                        conocimientos en framework como React.</p>
-                    <p>También en trabajado con bases de datos(MySQL, Oracle, MongoDB) y adquiero los conocimientos
-                        básicos de SEO
+                    <p>Estos últimos años me he estado formándome profesionalmente en <strong>tecnologías web</strong>, poseo algunos
+                        conocimientos en <strong>framework</strong> como React.</p>
+                    <p>También en trabajado con <strong>bases de datos(MySQL, Oracle, MongoDB)</strong> y adquiero los conocimientos
+                        básicos de <strong>SEO</strong>
                         para posicionar paguinas webs.</p>
                     <p>Me gustaría dedicarme profesionalmente al desarrollo web.</p>
                     <div class="about-enlace">
