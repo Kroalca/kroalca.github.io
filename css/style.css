@@ -263,7 +263,7 @@ h3{
 }
 
 .estudios .estudio p{
-    font-size: 1.20rem;
+    font-size: calc(0.4vw + 0.9rem);
     margin: 0;
 }
 
