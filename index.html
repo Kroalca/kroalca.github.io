@@ -81,7 +81,7 @@
             <h3>Perfil</h3>
             <div class="row">
                 <div class="col-12 col-md-4 text-center">
-                    <img src="img/logo.svg" alt="kroalca" class="wow animate__animated animate__zoomIn img-fluid">
+                    <img src="img/logo.svg" alt="kroalca" class="img-fluid">
                 </div>
                 <div class="col-12 col-md-8 text-about mt-4 mt-md-0 about">
                     <p>Me defino como una persona responsable, trabajadora, amable y honesta que busca desarrollarse
