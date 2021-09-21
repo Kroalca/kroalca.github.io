@@ -139,6 +139,10 @@ h3{
     animation: showText 0.5s 1s linear forwards;
 }
 
+.skills i{
+    color: var(--colorp);
+}
+
 .bar .progress-line span::before{
     position: absolute;
     content: "";

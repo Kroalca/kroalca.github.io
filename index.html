@@ -125,7 +125,7 @@
             <div class="skills-bar">
                 <div class="bar">
                     <div class="info">
-                        <span>HTML</span>
+                        <span>HTML <i class='bx bxl-html5' ></i></span>
                     </div>
                     <div class="wow progress-line html">
                         <span data-nosnippet></span>
@@ -133,7 +133,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>CSS</span>
+                        <span>CSS <i class='bx bxl-css3' ></i></span>
                     </div>
                     <div class="wow progress-line css">
                         <span data-nosnippet></span>
@@ -141,7 +141,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>Bootstrap</span>
+                        <span>Bootstrap <i class='bx bxl-bootstrap'></i></span>
                     </div>
                     <div class="wow progress-line boo">
                         <span data-nosnippet></span>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>JS</span>
+                        <span>JS <i class='bx bxl-javascript' ></i></span>
                     </div>
                     <div class="wow progress-line js">
                         <span data-nosnippet></span>
@@ -157,7 +157,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>PHP</span>
+                        <span>PHP <i class='bx bxl-php' ></i></span>
                     </div>
                     <div class="wow progress-line php">
                         <span data-nosnippet></span>
@@ -165,7 +165,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>React</span>
+                        <span>React <i class='bx bxl-react' ></i></span>
                     </div>
                     <div class="wow progress-line react">
                         <span data-nosnippet></span>
@@ -173,7 +173,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>Mysql</span>
+                        <span>Mysql <i class='bx bxs-data'></i></span>
                     </div>
                     <div class="wow progress-line mysql">
                         <span data-nosnippet></span>
