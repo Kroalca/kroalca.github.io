@@ -174,8 +174,12 @@ h3{
     content: "80%";
 }
 
+.progress-line.boo span::after{
+    content: "80%";
+}
+
 .progress-line.js span::after{
-    content: "70%";
+    content: "75%";
 }
 
 .progress-line.php span::after{
@@ -183,7 +187,7 @@ h3{
 }
 
 .progress-line.mysql span::after{
-    content: "80%";
+    content: "85%";
 }
 
 .progress-line.react span::after{
@@ -220,8 +224,12 @@ h3{
     width: 80%;
 }
 
+.progress-line.boo span{
+    width: 80%;
+}
+
 .progress-line.js span{
-    width: 70%;
+    width: 75%;
 }
 
 .progress-line.php span{
@@ -229,7 +237,7 @@ h3{
 }
 
 .progress-line.mysql span{
-    width: 80%;
+    width: 85%;
 }
 
 .progress-line.react span{

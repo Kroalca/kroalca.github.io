@@ -141,6 +141,14 @@
                 </div>
                 <div class="bar">
                     <div class="info">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="wow progress-line boo">
+                        <span data-nosnippet></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
                         <span>JS</span>
                     </div>
                     <div class="wow progress-line js">
