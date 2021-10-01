@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@1&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito Sans', sans-serif;
+:root{
     --colorp: #25a18e;
     --colorc: #7ae1d1;
     --colors: #fff;
@@ -11,6 +8,13 @@
     --colorb: #0a0908;
     --degradado: linear-gradient(90deg, rgba(37,161,142,1) 30%, rgba(122,225,209,1) 100%);
     --botona: background-color 0.5s ease, border 0.2s ease, transform 0.1s ease;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .btn:active{
