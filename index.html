@@ -87,12 +87,13 @@
                     <p>Me defino como una persona responsable, trabajadora, amable y honesta que busca desarrollarse
                         profesional y personalmente. Creo que tengo mucho potencial y sobre todo muchas ganas de
                         trabajar y aprender.</p>
-                    <p>Estos últimos años me he estado formándome profesionalmente en <strong>tecnologías web</strong>, poseo algunos
-                        conocimientos en <strong>framework</strong> como React.</p>
+                    <p>Estos últimos años me he estado formándome profesionalmente en <strong>tecnologías web</strong>, poseo
+                        conocimientos en <strong>framework</strong> como Angular y la libreria de React.</p>
                     <p>También en trabajado con <strong>bases de datos(MySQL, Oracle, MongoDB)</strong> y adquiero los conocimientos
                         básicos de <strong>SEO</strong>
                         para posicionar paguinas webs.</p>
                     <p>Me gustaría dedicarme profesionalmente al desarrollo web.</p>
+                    <p>Actualmente estoy aumentando mis conocimientos sobre <strong>React</strong>.</p>
                     <div class="about-enlace">
                         <div class="row">
                             <div class="col-12 col-md-6">
@@ -157,7 +158,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>PHP <i class='bx bxl-php' ></i></span>
+                        <span>React <i class='bx bxl-react' ></i></span>
                     </div>
                     <div class="wow progress-line php">
                         <span data-nosnippet></span>
@@ -165,7 +166,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>React <i class='bx bxl-react' ></i></span>
+                        <span>Angular <i class='bx bxl-angular'></i></span>
                     </div>
                     <div class="wow progress-line react">
                         <span data-nosnippet></span>
@@ -179,6 +180,14 @@
                         <span data-nosnippet></span>
                     </div>
                 </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>TypeScript</span>
+                    </div>
+                    <div class="wow progress-line ts">
+                        <span data-nosnippet></span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -188,25 +197,32 @@
             <h3>Mis Estudios</h3>
             <div class="estudios mt-5">
                 <div class="row">
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-6">
                         <div class="estudio py-5">
                             <i class='bx bx-server mb-4'></i>
                             <span>ASIR</span>
                             <p>CFGS - IES Siete palmas</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4 my-4 my-lg-0">
+                    <div class="col-12 col-lg-6 my-4 my-lg-0">
                         <div class="estudio py-5">
                             <i class='bx bx-mobile mb-4'></i>
                             <span>DAM</span>
                             <p>CFGS - CIFP Villa de Aguimes</p>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-4">
+                    <div class="col-12 col-lg-6 mt-lg-4">
                         <div class="estudio py-5">
                             <i class='bx bx-laptop mb-4'></i>
                             <span>DAW</span>
                             <p>CP - Focan</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 my-4 my-lg-0 mt-lg-4">
+                        <div class="estudio py-5">
+                            <i class='bx bxl-stack-overflow mb-4'></i>
+                            <span>Fullstack</span>
+                            <p>EOI</p>
                         </div>
                     </div>
                 </div>
