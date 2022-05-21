@@ -150,7 +150,7 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>JS <i class='bx bxl-javascript' ></i></span>
+                        <span>JavaScript <i class='bx bxl-javascript' ></i></span>
                     </div>
                     <div class="wow progress-line js">
                         <span data-nosnippet></span>
@@ -159,14 +159,6 @@
                 <div class="bar">
                     <div class="info">
                         <span>React <i class='bx bxl-react' ></i></span>
-                    </div>
-                    <div class="wow progress-line php">
-                        <span data-nosnippet></span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <span>Angular <i class='bx bxl-angular'></i></span>
                     </div>
                     <div class="wow progress-line react">
                         <span data-nosnippet></span>
@@ -182,9 +174,18 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>TypeScript</span>
+                        <span>TypeScript </span>
+                        <img src = "img/typescript.svg" alt="TypeScript" width="20"/>
                     </div>
                     <div class="wow progress-line ts">
+                        <span data-nosnippet></span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <span>Angular <i class='bx bxl-angular'></i></span>
+                    </div>
+                    <div class="wow progress-line angular">
                         <span data-nosnippet></span>
                     </div>
                 </div>

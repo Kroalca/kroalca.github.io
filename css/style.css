@@ -147,6 +147,7 @@ h3{
     color: var(--colorp);
 }
 
+
 .bar .progress-line span::before{
     position: absolute;
     content: "";
@@ -175,7 +176,7 @@ h3{
 }
 
 .progress-line.html span::after{
-    content: "85%";
+    content: "90%";
 }
 
 .progress-line.css span::after{
@@ -183,15 +184,15 @@ h3{
 }
 
 .progress-line.boo span::after{
-    content: "80%";
+    content: "90%";
 }
 
 .progress-line.js span::after{
-    content: "75%";
+    content: "85%";
 }
 
-.progress-line.php span::after{
-    content: "70%";
+.progress-line.angular span::after{
+    content: "50%";
 }
 
 .progress-line.mysql span::after{
@@ -199,11 +200,11 @@ h3{
 }
 
 .progress-line.react span::after{
-    content: "50%";
+    content: "80%";
 }
 
 .progress-line.ts span::after{
-    content: "50%";
+    content: "70%";
 }
 
 .skills-bar .bar .progress-line{
@@ -229,7 +230,7 @@ h3{
 }
 
 .progress-line.html span{
-    width: 85%;
+    width: 90%;
 }
 
 .progress-line.css span{
@@ -237,15 +238,15 @@ h3{
 }
 
 .progress-line.boo span{
-    width: 80%;
+    width: 90%;
 }
 
 .progress-line.js span{
-    width: 75%;
+    width: 85%;
 }
 
-.progress-line.php span{
-    width: 70%;
+.progress-line.angular span{
+    width: 50%;
 }
 
 .progress-line.mysql span{
@@ -253,11 +254,11 @@ h3{
 }
 
 .progress-line.react span{
-    width: 50%;
+    width: 80%;
 }
 
 .progress-line.ts span{
-    width: 50%;
+    width: 70%;
 }
 
 .estudios .estudio{
