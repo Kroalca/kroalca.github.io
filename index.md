@@ -174,8 +174,10 @@
                 </div>
                 <div class="bar">
                     <div class="info">
-                        <span>TypeScript </span>
-                        <img src = "img/typescript.svg" alt="TypeScript" width="20"/>
+                        <span>
+                            TypeScript 
+                            <img src="img/typescript.svg" alt="TypeScript" class="wow"/>
+                        </span>
                     </div>
                     <div class="wow progress-line ts">
                         <span data-nosnippet></span>
